@@ -15,8 +15,13 @@
 		6273C95E1D34DD450017830D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C95C1D34DD450017830D /* HomeViewController.m */; };
 		6273C95F1D34DD450017830D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6273C95D1D34DD450017830D /* HomeViewController.xib */; };
 		6273C9651D34DE100017830D /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C9641D34DE100017830D /* MainNavigationController.m */; };
+<<<<<<< Updated upstream
 		6273C96C1D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C9691D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.m */; };
 		6273C96D1D34E3E80017830D /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C96B1D34E3E80017830D /* UIScrollView+SVPullToRefresh.m */; };
+=======
+		850FA7A71D34E51E00B72D7E /* wqeqewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FA7A51D34E51E00B72D7E /* wqeqewViewController.m */; };
+		850FA7A81D34E51E00B72D7E /* wqeqewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 850FA7A61D34E51E00B72D7E /* wqeqewViewController.xib */; };
+>>>>>>> Stashed changes
 		E6A73B123822FEB7DCCB23FF /* libPods-WuTuoHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B91E4AF0C9B8828BF8F3F9 /* libPods-WuTuoHome.a */; };
 /* End PBXBuildFile section */
 
@@ -35,11 +40,17 @@
 		6273C95D1D34DD450017830D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Controller/HomeViewController.xib; sourceTree = "<group>"; };
 		6273C9631D34DE100017830D /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
 		6273C9641D34DE100017830D /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		6273C9671D34E3E80017830D /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
 		6273C9681D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
 		6273C9691D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
 		6273C96A1D34E3E80017830D /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
 		6273C96B1D34E3E80017830D /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
+=======
+		850FA7A41D34E51E00B72D7E /* wqeqewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wqeqewViewController.h; path = ../../../../../../xinjian/xinjian/wqeqewViewController.h; sourceTree = "<group>"; };
+		850FA7A51D34E51E00B72D7E /* wqeqewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = wqeqewViewController.m; path = ../../../../../../xinjian/xinjian/wqeqewViewController.m; sourceTree = "<group>"; };
+		850FA7A61D34E51E00B72D7E /* wqeqewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = wqeqewViewController.xib; path = ../../../../../../xinjian/xinjian/wqeqewViewController.xib; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		A88652B5BA5E0F0248784BEC /* Pods-WuTuoHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuTuoHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuTuoHome/Pods-WuTuoHome.debug.xcconfig"; sourceTree = "<group>"; };
 		D8B91E4AF0C9B8828BF8F3F9 /* libPods-WuTuoHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WuTuoHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -127,22 +138,15 @@
 		6273C93B1D34DC9D0017830D /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				850FA7A11D34E4FD00B72D7E /* Controller */,
+				850FA7A21D34E4FD00B72D7E /* Model */,
+				850FA7A31D34E4FD00B72D7E /* View */,
 				6273C94B1D34DC9D0017830D /* Zixun(资讯) */,
 				6273C9461D34DC9D0017830D /* Product(商品) */,
 				6273C9421D34DC9D0017830D /* Mybuild(我搭) */,
 				6273C93D1D34DC9D0017830D /* Inspire(灵感) */,
-				6273C93C1D34DC9D0017830D /* Controller */,
-				6273C9411D34DC9D0017830D /* Model */,
-				6273C94A1D34DC9D0017830D /* View */,
 			);
 			path = "Category(分类)";
-			sourceTree = "<group>";
-		};
-		6273C93C1D34DC9D0017830D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		6273C93D1D34DC9D0017830D /* Inspire(灵感) */ = {
@@ -174,13 +178,6 @@
 			children = (
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		6273C9411D34DC9D0017830D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		6273C9421D34DC9D0017830D /* Mybuild(我搭) */ = {
@@ -239,13 +236,6 @@
 			sourceTree = "<group>";
 		};
 		6273C9491D34DC9D0017830D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6273C94A1D34DC9D0017830D /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -383,6 +373,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 		6273C9661D34E3E80017830D /* SVPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
@@ -393,6 +384,30 @@
 				6273C96B1D34E3E80017830D /* UIScrollView+SVPullToRefresh.m */,
 			);
 			path = SVPullToRefresh;
+=======
+		850FA7A11D34E4FD00B72D7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				850FA7A41D34E51E00B72D7E /* wqeqewViewController.h */,
+				850FA7A51D34E51E00B72D7E /* wqeqewViewController.m */,
+				850FA7A61D34E51E00B72D7E /* wqeqewViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		850FA7A21D34E4FD00B72D7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		850FA7A31D34E4FD00B72D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+>>>>>>> Stashed changes
 			sourceTree = "<group>";
 		};
 		DD8D7BD8857C038AD80D0704 /* Frameworks */ = {
@@ -463,6 +478,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850FA7A81D34E51E00B72D7E /* wqeqewViewController.xib in Resources */,
 				6273C9381D34DA100017830D /* Podfile in Resources */,
 				6273C9301D34D8930017830D /* LaunchScreen.storyboard in Resources */,
 				6273C92D1D34D8930017830D /* Assets.xcassets in Resources */,
@@ -530,7 +546,11 @@
 				6273C96D1D34E3E80017830D /* UIScrollView+SVPullToRefresh.m in Sources */,
 				6273C9651D34DE100017830D /* MainNavigationController.m in Sources */,
 				6273C95E1D34DD450017830D /* HomeViewController.m in Sources */,
+<<<<<<< Updated upstream
 				6273C96C1D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+=======
+				850FA7A71D34E51E00B72D7E /* wqeqewViewController.m in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
