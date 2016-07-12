@@ -15,6 +15,8 @@
 		6273C95E1D34DD450017830D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C95C1D34DD450017830D /* HomeViewController.m */; };
 		6273C95F1D34DD450017830D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6273C95D1D34DD450017830D /* HomeViewController.xib */; };
 		6273C9651D34DE100017830D /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C9641D34DE100017830D /* MainNavigationController.m */; };
+		6273C96C1D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C9691D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.m */; };
+		6273C96D1D34E3E80017830D /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C96B1D34E3E80017830D /* UIScrollView+SVPullToRefresh.m */; };
 		E6A73B123822FEB7DCCB23FF /* libPods-WuTuoHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B91E4AF0C9B8828BF8F3F9 /* libPods-WuTuoHome.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,11 @@
 		6273C95D1D34DD450017830D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Controller/HomeViewController.xib; sourceTree = "<group>"; };
 		6273C9631D34DE100017830D /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
 		6273C9641D34DE100017830D /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		6273C9671D34E3E80017830D /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
+		6273C9681D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
+		6273C9691D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
+		6273C96A1D34E3E80017830D /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
+		6273C96B1D34E3E80017830D /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
 		A88652B5BA5E0F0248784BEC /* Pods-WuTuoHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuTuoHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuTuoHome/Pods-WuTuoHome.debug.xcconfig"; sourceTree = "<group>"; };
 		D8B91E4AF0C9B8828BF8F3F9 /* libPods-WuTuoHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WuTuoHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -101,6 +108,7 @@
 		6273C9391D34DC9D0017830D /* 3rdpart */ = {
 			isa = PBXGroup;
 			children = (
+				6273C9661D34E3E80017830D /* SVPullToRefresh */,
 			);
 			path = 3rdpart;
 			sourceTree = "<group>";
@@ -375,6 +383,18 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		6273C9661D34E3E80017830D /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				6273C9671D34E3E80017830D /* SVPullToRefresh.h */,
+				6273C9681D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.h */,
+				6273C9691D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.m */,
+				6273C96A1D34E3E80017830D /* UIScrollView+SVPullToRefresh.h */,
+				6273C96B1D34E3E80017830D /* UIScrollView+SVPullToRefresh.m */,
+			);
+			path = SVPullToRefresh;
+			sourceTree = "<group>";
+		};
 		DD8D7BD8857C038AD80D0704 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,8 +527,10 @@
 			files = (
 				6273C9251D34D8930017830D /* AppDelegate.m in Sources */,
 				6273C9221D34D8930017830D /* main.m in Sources */,
+				6273C96D1D34E3E80017830D /* UIScrollView+SVPullToRefresh.m in Sources */,
 				6273C9651D34DE100017830D /* MainNavigationController.m in Sources */,
 				6273C95E1D34DD450017830D /* HomeViewController.m in Sources */,
+				6273C96C1D34E3E80017830D /* UIScrollView+SVInfiniteScrolling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
