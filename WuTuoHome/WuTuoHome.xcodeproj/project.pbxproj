@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6273C9221D34D8930017830D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C9211D34D8930017830D /* main.m */; };
+		6273C9251D34D8930017830D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C9241D34D8930017830D /* AppDelegate.m */; };
+		6273C92D1D34D8930017830D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6273C92C1D34D8930017830D /* Assets.xcassets */; };
+		6273C9301D34D8930017830D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6273C92E1D34D8930017830D /* LaunchScreen.storyboard */; };
+		6273C9381D34DA100017830D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6273C9371D34DA100017830D /* Podfile */; };
+		6273C95E1D34DD450017830D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C95C1D34DD450017830D /* HomeViewController.m */; };
+		6273C95F1D34DD450017830D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6273C95D1D34DD450017830D /* HomeViewController.xib */; };
+		6273C9651D34DE100017830D /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273C9641D34DE100017830D /* MainNavigationController.m */; };
+		E6A73B123822FEB7DCCB23FF /* libPods-WuTuoHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B91E4AF0C9B8828BF8F3F9 /* libPods-WuTuoHome.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B599BCF169ED1E277EBA74E /* Pods-WuTuoHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuTuoHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-WuTuoHome/Pods-WuTuoHome.release.xcconfig"; sourceTree = "<group>"; };
+		6273C91D1D34D8930017830D /* WuTuoHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WuTuoHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6273C9211D34D8930017830D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6273C9231D34D8930017830D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		6273C9241D34D8930017830D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		6273C92C1D34D8930017830D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6273C92F1D34D8930017830D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6273C9311D34D8930017830D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6273C9371D34DA100017830D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6273C95B1D34DD450017830D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Controller/HomeViewController.h; sourceTree = "<group>"; };
+		6273C95C1D34DD450017830D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Controller/HomeViewController.m; sourceTree = "<group>"; };
+		6273C95D1D34DD450017830D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Controller/HomeViewController.xib; sourceTree = "<group>"; };
+		6273C9631D34DE100017830D /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		6273C9641D34DE100017830D /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		A88652B5BA5E0F0248784BEC /* Pods-WuTuoHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuTuoHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuTuoHome/Pods-WuTuoHome.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B91E4AF0C9B8828BF8F3F9 /* libPods-WuTuoHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WuTuoHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6273C91A1D34D8930017830D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A73B123822FEB7DCCB23FF /* libPods-WuTuoHome.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FD31D1AD5CB08C809E878A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A88652B5BA5E0F0248784BEC /* Pods-WuTuoHome.debug.xcconfig */,
+				4B599BCF169ED1E277EBA74E /* Pods-WuTuoHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6273C9141D34D8930017830D = {
+			isa = PBXGroup;
+			children = (
+				6273C9371D34DA100017830D /* Podfile */,
+				6273C91F1D34D8930017830D /* WuTuoHome */,
+				6273C91E1D34D8930017830D /* Products */,
+				3FD31D1AD5CB08C809E878A6 /* Pods */,
+				DD8D7BD8857C038AD80D0704 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6273C91E1D34D8930017830D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6273C91D1D34D8930017830D /* WuTuoHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6273C91F1D34D8930017830D /* WuTuoHome */ = {
+			isa = PBXGroup;
+			children = (
+				6273C9391D34DC9D0017830D /* 3rdpart */,
+				6273C93A1D34DC9D0017830D /* Classes */,
+				6273C9201D34D8930017830D /* Supporting Files */,
+			);
+			path = WuTuoHome;
+			sourceTree = "<group>";
+		};
+		6273C9201D34D8930017830D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6273C92C1D34D8930017830D /* Assets.xcassets */,
+				6273C92E1D34D8930017830D /* LaunchScreen.storyboard */,
+				6273C9311D34D8930017830D /* Info.plist */,
+				6273C9211D34D8930017830D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6273C9391D34DC9D0017830D /* 3rdpart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3rdpart;
+			sourceTree = "<group>";
+		};
+		6273C93A1D34DC9D0017830D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6273C93B1D34DC9D0017830D /* Category(分类) */,
+				6273C94F1D34DC9D0017830D /* Home(首页) */,
+				6273C9531D34DC9D0017830D /* Main(基础) */,
+				6273C9571D34DC9D0017830D /* User(用户) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6273C93B1D34DC9D0017830D /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				6273C94B1D34DC9D0017830D /* Zixun(资讯) */,
+				6273C9461D34DC9D0017830D /* Product(商品) */,
+				6273C9421D34DC9D0017830D /* Mybuild(我搭) */,
+				6273C93D1D34DC9D0017830D /* Inspire(灵感) */,
+				6273C93C1D34DC9D0017830D /* Controller */,
+				6273C9411D34DC9D0017830D /* Model */,
+				6273C94A1D34DC9D0017830D /* View */,
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		6273C93C1D34DC9D0017830D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6273C93D1D34DC9D0017830D /* Inspire(灵感) */ = {
+			isa = PBXGroup;
+			children = (
+				6273C93E1D34DC9D0017830D /* Controller */,
+				6273C93F1D34DC9D0017830D /* Model */,
+				6273C9401D34DC9D0017830D /* View */,
+			);
+			path = "Inspire(灵感)";
+			sourceTree = "<group>";
+		};
+		6273C93E1D34DC9D0017830D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6273C93F1D34DC9D0017830D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6273C9401D34DC9D0017830D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6273C9411D34DC9D0017830D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6273C9421D34DC9D0017830D /* Mybuild(我搭) */ = {
+			isa = PBXGroup;
+			children = (
+				6273C9431D34DC9D0017830D /* Controller */,
+				6273C9441D34DC9D0017830D /* Model */,
+				6273C9451D34DC9D0017830D /* View */,
+			);
+			path = "Mybuild(我搭)";
+			sourceTree = "<group>";
+		};
+		6273C9431D34DC9D0017830D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6273C9441D34DC9D0017830D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6273C9451D34DC9D0017830D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6273C9461D34DC9D0017830D /* Product(商品) */ = {
+			isa = PBXGroup;
+			children = (
+				6273C9471D34DC9D0017830D /* Controller */,
+				6273C9481D34DC9D0017830D /* Model */,
+				6273C9491D34DC9D0017830D /* View */,
+			);
+			path = "Product(商品)";
+			sourceTree = "<group>";
+		};
+		6273C9471D34DC9D0017830D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6273C9481D34DC9D0017830D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6273C9491D34DC9D0017830D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6273C94A1D34DC9D0017830D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6273C94B1D34DC9D0017830D /* Zixun(资讯) */ = {
+			isa = PBXGroup;
+			children = (
+				6273C94C1D34DC9D0017830D /* Controller */,
+				6273C94D1D34DC9D0017830D /* Model */,
+				6273C94E1D34DC9D0017830D /* View */,
+			);
+			path = "Zixun(资讯)";
+			sourceTree = "<group>";
+		};
+		6273C94C1D34DC9D0017830D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6273C94D1D34DC9D0017830D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6273C94E1D34DC9D0017830D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6273C94F1D34DC9D0017830D /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				6273C95B1D34DD450017830D /* HomeViewController.h */,
+				6273C95C1D34DD450017830D /* HomeViewController.m */,
+				6273C95D1D34DD450017830D /* HomeViewController.xib */,
+				6273C9501D34DC9D0017830D /* Controller */,
+				6273C9511D34DC9D0017830D /* Model */,
+				6273C9521D34DC9D0017830D /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		6273C9501D34DC9D0017830D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6273C9511D34DC9D0017830D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6273C9521D34DC9D0017830D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6273C9531D34DC9D0017830D /* Main(基础) */ = {
+			isa = PBXGroup;
+			children = (
+				6273C9231D34D8930017830D /* AppDelegate.h */,
+				6273C9241D34D8930017830D /* AppDelegate.m */,
+				6273C9541D34DC9D0017830D /* Controller */,
+				6273C9551D34DC9D0017830D /* Model */,
+				6273C9561D34DC9D0017830D /* View */,
+			);
+			path = "Main(基础)";
+			sourceTree = "<group>";
+		};
+		6273C9541D34DC9D0017830D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6273C9631D34DE100017830D /* MainNavigationController.h */,
+				6273C9641D34DE100017830D /* MainNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6273C9551D34DC9D0017830D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6273C9561D34DC9D0017830D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6273C9571D34DC9D0017830D /* User(用户) */ = {
+			isa = PBXGroup;
+			children = (
+				6273C9581D34DC9D0017830D /* Controller */,
+				6273C9591D34DC9D0017830D /* Model */,
+				6273C95A1D34DC9D0017830D /* View */,
+			);
+			path = "User(用户)";
+			sourceTree = "<group>";
+		};
+		6273C9581D34DC9D0017830D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6273C9591D34DC9D0017830D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6273C95A1D34DC9D0017830D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD8D7BD8857C038AD80D0704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8B91E4AF0C9B8828BF8F3F9 /* libPods-WuTuoHome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6273C91C1D34D8930017830D /* WuTuoHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6273C9341D34D8930017830D /* Build configuration list for PBXNativeTarget "WuTuoHome" */;
+			buildPhases = (
+				183B0B58AB755FE3BF4028A8 /* [CP] Check Pods Manifest.lock */,
+				6273C9191D34D8930017830D /* Sources */,
+				6273C91A1D34D8930017830D /* Frameworks */,
+				6273C91B1D34D8930017830D /* Resources */,
+				6CBE2CFC127F0E42D5E23FC7 /* [CP] Embed Pods Frameworks */,
+				3988524303261A266368D73E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WuTuoHome;
+			productName = WuTuoHome;
+			productReference = 6273C91D1D34D8930017830D /* WuTuoHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6273C9151D34D8930017830D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					6273C91C1D34D8930017830D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 6273C9181D34D8930017830D /* Build configuration list for PBXProject "WuTuoHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6273C9141D34D8930017830D;
+			productRefGroup = 6273C91E1D34D8930017830D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6273C91C1D34D8930017830D /* WuTuoHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6273C91B1D34D8930017830D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6273C9381D34DA100017830D /* Podfile in Resources */,
+				6273C9301D34D8930017830D /* LaunchScreen.storyboard in Resources */,
+				6273C92D1D34D8930017830D /* Assets.xcassets in Resources */,
+				6273C95F1D34DD450017830D /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		183B0B58AB755FE3BF4028A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3988524303261A266368D73E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WuTuoHome/Pods-WuTuoHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBE2CFC127F0E42D5E23FC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WuTuoHome/Pods-WuTuoHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6273C9191D34D8930017830D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6273C9251D34D8930017830D /* AppDelegate.m in Sources */,
+				6273C9221D34D8930017830D /* main.m in Sources */,
+				6273C9651D34DE100017830D /* MainNavigationController.m in Sources */,
+				6273C95E1D34DD450017830D /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6273C92E1D34D8930017830D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6273C92F1D34D8930017830D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6273C9321D34D8930017830D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6273C9331D34D8930017830D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6273C9351D34D8930017830D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88652B5BA5E0F0248784BEC /* Pods-WuTuoHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WuTuoHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WuTuoHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6273C9361D34D8930017830D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B599BCF169ED1E277EBA74E /* Pods-WuTuoHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WuTuoHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WuTuoHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6273C9181D34D8930017830D /* Build configuration list for PBXProject "WuTuoHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6273C9321D34D8930017830D /* Debug */,
+				6273C9331D34D8930017830D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6273C9341D34D8930017830D /* Build configuration list for PBXNativeTarget "WuTuoHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6273C9351D34D8930017830D /* Debug */,
+				6273C9361D34D8930017830D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6273C9151D34D8930017830D /* Project object */;
+}
